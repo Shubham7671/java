@@ -1,4 +1,4 @@
-package src;
+package src.basics.Learning;
 
 public class sum {
     public static void main(String[] args){
