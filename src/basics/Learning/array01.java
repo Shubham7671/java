@@ -19,6 +19,7 @@ public class array01 {
             if(i%2!=0){
                 product=product*arr[i];
             }
+//            System.out.println(arr[i]);
         }
         System.out.println(sum);
         System.out.println(product);
