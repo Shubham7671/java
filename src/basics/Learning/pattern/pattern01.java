@@ -3,6 +3,14 @@ package src.basics.Learning.pattern;
 import java.util.Scanner;
 import java.util.StringJoiner;
 
+
+
+     /* * * * * * * *
+        * * * * * * *
+        * * * * * * *
+        * * * * * * *
+        * * * * * * *    */
+
 public class pattern01 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
