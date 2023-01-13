@@ -7,7 +7,7 @@ public class RMS {
         }
     }
     public static void main (String[] args) {
-        // Your code here
+
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int []arr=new int[n];
