@@ -10,7 +10,7 @@ public class binarySearch {
         int high=arr.length-1;
 
 
-        for (int i = low; i <= high;) {
+        for (; low<= high;) {
             int mid=(high+low)/2;
 
             if(arr[mid]==key){
