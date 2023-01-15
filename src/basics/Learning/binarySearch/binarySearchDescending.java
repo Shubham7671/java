@@ -21,7 +21,7 @@ public class binarySearchDescending {
     public static void main(String[] args) {
         int arr[]={90,88,52,42,36,24,21,12,8,7,6,2,1,0};
 
-        int ans=binarySearchDes(arr,0);
+        int ans=binarySearchDes(arr,21);
         System.out.println(ans);
     }
 }
