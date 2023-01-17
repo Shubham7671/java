@@ -23,5 +23,9 @@ public class floorValue {
         int key=15;
         int res=floorVal(arr,key);
         System.out.println(res);
+
+
+
+
     }
 }
