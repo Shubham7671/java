@@ -37,7 +37,7 @@ public class countNumberOfOccurrence {
     }
     public static void main(String[] args) {
         int arr[]={1,2,3,4,5,5,5,5,5,5,5,6,7,8,9,9};
-        int res= countNumber2(arr,10)-countNumber(arr,10)+1;
+        int res= countNumber2(arr,5)-countNumber(arr,5)+1;
         System.out.println(res);
     }
 }
