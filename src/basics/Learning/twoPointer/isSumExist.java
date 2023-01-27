@@ -20,6 +20,5 @@ public class isSumExist {
         int sum=11;
 
         System.out.println(sumexistss(arr,sum));
-
     }
 }
