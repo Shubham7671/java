@@ -18,7 +18,6 @@ public class isSumExist {
     public static void main(String[] args) {
         int arr[]={1,2,7,10};
         int sum=11;
-
         System.out.println(sumexistss(arr,sum));
     }
 }
