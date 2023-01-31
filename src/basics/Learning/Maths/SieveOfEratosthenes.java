@@ -29,6 +29,7 @@ public class SieveOfEratosthenes {
                 count++;
             }
         }
+
         System.out.println(count);
     }
 }
