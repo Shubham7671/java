@@ -15,5 +15,7 @@ public class arrayinput {
             System.out.print(arr[i]+" ");
         }
         System.out.println(arr.length);
+
+
     }
 }
