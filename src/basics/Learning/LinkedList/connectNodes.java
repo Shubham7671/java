@@ -17,35 +17,47 @@ import java.util.*;
         }
     }
      public void addFirst(int data){
-         Node newnode=new Node(data);
-
-         if(head==null){
-             head=newnode;
-             return;
-         }
-         newnode.next=head;
-         head=newnode;
+      Node newNode =new Node(data);
+      if(head==null){
+          head=newNode;
+          return;
+      }
+      newNode.next=head;
+      head=newNode;
      }
 
      public  void addLast(int data){
-        Node newnode=new Node(data);
+        Node newNode=new Node(data);
+        if(head==null){
+            head=newNode;
+            return;
+        }
+        Node cur=head;
+        while (cur.next!=null){
+            cur=cur.next;
+        }
+         cur.next=newNode;
 
      }
+     public  void printList(){
 
+        Node cur=head;
 
-//    void traverse(Node head){
-//        Node cur=head;
-//        while(cur!=null){
-//            System.out.println(cur.data);
-//            cur=cur.next;
-//        }
-//    }
-
-
+        while (cur!=null){
+            System.out.print(cur.data);
+            cur=cur.next;
+        }
+     }
 
     public static   void main(String[] args) {
        connectNodes list=new connectNodes();
-            list.addFirst(10);
-        System.out.println(list);
+            list.addFirst(1);
+            list.addFirst(2);
+            list.addFirst(3);
+            list.addFirst(4);
+            list.addFirst(5);
+            list.addLast(0);
+//        System.out.println(list.head.data);
+        list.printList();
     }
 }
