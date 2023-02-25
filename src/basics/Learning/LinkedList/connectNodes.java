@@ -48,6 +48,26 @@ import java.util.*;
             cur=cur.next;
         }
      }
+     public  void deleteFirst(){
+        if(head==null){
+            return;
+        }
+        head=head.next;
+     }
+     public void deleteLast(){
+        if(head==null){
+            return;
+        }
+        if(head.next==null){
+            head=null;
+            return;
+        }
+        Node cur=head;
+        while(cur.next.next !=null){
+            cur=cur.next;
+        }
+        cur.next=null;
+     }
 
     public static   void main(String[] args) {
        connectNodes list=new connectNodes();
@@ -57,7 +77,9 @@ import java.util.*;
             list.addFirst(4);
             list.addFirst(5);
             list.addLast(0);
-//        System.out.println(list.head.data);
-        list.printList();
+            list.deleteFirst();
+            list.deleteLast();
+            list.deleteLast();
+            list.printList();
     }
 }
