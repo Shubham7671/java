@@ -82,7 +82,5 @@ import java.util.*;
             list.deleteLast();
             list.printList();
 
-
-
     }
 }
