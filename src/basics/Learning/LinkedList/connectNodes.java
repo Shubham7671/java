@@ -81,5 +81,8 @@ import java.util.*;
             list.deleteLast();
             list.deleteLast();
             list.printList();
+
+
+
     }
 }
