@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class paranthesis {
     public static void main(String[] args) {
-        String s="(((()))";
+        String s="}";
         Stack<Character> st=new Stack<>();
         for(int i=0;i<s.length();i++){
 
