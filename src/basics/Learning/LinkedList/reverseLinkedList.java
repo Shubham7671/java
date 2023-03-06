@@ -38,6 +38,7 @@ public class reverseLinkedList {
             cur=temp;
         }
         head=prev;
+
     }
     
 
