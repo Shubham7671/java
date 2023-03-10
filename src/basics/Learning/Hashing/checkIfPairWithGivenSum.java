@@ -19,7 +19,7 @@ public class checkIfPairWithGivenSum {
     }
     public static void main(String[] args) {
         int arr[]={1,2,3,4,5};
-        int sum=7;
+        int sum=10;
         checkSum(arr,sum);
     }
 }
