@@ -14,9 +14,16 @@ public class fibonacciSeries {
     public static void main(String[] args) {
         int a=0;
         int b=1;
-        int n=7;
+        int n=41;
         System.out.print(a+" "+b+" ");
         findfib(a,b,n-2);
+//        int sum=0;
+//        for(int i=2;i<=n;i++){
+//            sum=a+b;
+//            a=b;
+//            b=sum;
+//        }
+//        System.out.println(sum);
 
     }
 }
