@@ -11,5 +11,9 @@ public class McqExam {
         int A  = Math.max(Math.max(Math.max(P,Q),R),S);
         if (T==100);
         System.out.println(A);
+
+
+
+
     }
 }
