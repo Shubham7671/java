@@ -31,13 +31,14 @@ public class reverseLinkedList {
     public void reverse(Node head ){
         Node cur=head;
         Node prev = null;
-        while(cur.next !=null){
+        while(cur !=null){
             Node temp=cur.next;
             cur.next=prev;
             prev=cur;
             cur=temp;
-            System.out.println(cur.data);
+            System.out.println(prev.data);
         }
+
         head=prev;
 
     }
@@ -51,9 +52,9 @@ public class reverseLinkedList {
         list.addFirst(3);
         list.addFirst(4);
         list.addFirst(5);
-//        list.printList();
-        list.reverse(list.head);
         list.printList();
+        list.reverse(list.head);
+//        list.printList();
     }
 
 }

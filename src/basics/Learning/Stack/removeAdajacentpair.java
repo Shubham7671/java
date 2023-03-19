@@ -1,12 +1,14 @@
 package src.basics.Learning.Stack;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Stack;
 
 public class removeAdajacentpair {
 
         public static void main(String[] args) {
 
-            String str = "aaaa";
+            String str = "aaaazbc";
             System.out.println(removeDuplicates(str));
         }
 
@@ -27,9 +29,7 @@ public class removeAdajacentpair {
             for (int j = 0; j < s.size(); j++) {
                 bag += s.get(j);
             }
-//		if (!s.isEmpty() || s.get(j) != s.get(j - 1)) {
-//			bag += s.get(j);
-//		}
+
             return bag;
         }
     }
