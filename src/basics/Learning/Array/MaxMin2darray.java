@@ -10,6 +10,7 @@ public class MaxMin2darray {
             Arrays.sort(grid[i]);
         }
 
+
         int max=0;
         for(int i=0;i<grid[0].length;i++) {
             max=0;
