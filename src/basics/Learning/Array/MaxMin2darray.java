@@ -18,6 +18,7 @@ public class MaxMin2darray {
                 max=Math.max(grid[j][i],max);
             }
 
+
             sum+=max;
         }
 
