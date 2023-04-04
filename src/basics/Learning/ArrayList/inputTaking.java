@@ -12,10 +12,6 @@ public class inputTaking {
             al.add(sc.nextInt());
         }
 
-
-
-
-
         System.out.println(al.get(0)+ al.get(1));
     }
 }
