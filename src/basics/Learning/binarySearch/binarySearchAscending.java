@@ -12,7 +12,7 @@ public class binarySearchAscending {
             else if (arr[mid]<k){
             start=mid+1;
                 }
-            else if (arr[mid]>k) {
+            else {
                 end=mid-1;
             }
         }

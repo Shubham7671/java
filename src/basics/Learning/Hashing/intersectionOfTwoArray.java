@@ -10,13 +10,11 @@ public class intersectionOfTwoArray {
         for(int i=0;i<arr1.length;i++){ //1  3 4
             mp.add(arr1[i]);
         }
-
         for(int i=0;i<arr2.length;i++){
             if(mp.contains(arr2[i])){ // 2 5
                 System.out.println(arr2[i]);
                 mp.remove(arr2[i]);
             }
         }
-
     }
 }
